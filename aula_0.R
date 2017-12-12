@@ -12,7 +12,13 @@
 # o que é um dataframe? Qual a diferneça entre um dataframe e um list?
 #data.frame é uma tabela (coluna e linhas), matriz para valores de classes diferentes, e lista é um conjunto de objetos
 
-10*3
+# o que as funções abaixo fazem? O que elas retornam? #funcoes com is na frente eh uma pergunta
+is.vector() #responde se é vector. Retorna: TRUE or FALSE
+is.numeric() #responde se é objeto do tipo numérico. Retorna: TRUE or FALSE 
+is.character() # responde se é objeto do tipo character. Retorna: TRUE or FALSE
+is.matrix(peso) # pergunta se o objeto peso eh uma matrix
+is.na() # verifica se é NA.Retorna: TRUE or FALSE
+is.data.frame() # verifica se é data.frame.Retorna: TRUE or FALSE
 
 
 #o que queremos dizer quando dizemos uma função "retorna" alguma coisa?
@@ -38,7 +44,7 @@ D = c (41,	37,	38,	49,	35, 49)
 
 tratamento = c(rep("A_controle",6), rep("B",5), rep("C",6), rep ("D",6))
 
-biomassa = data.frame (x= tratamento, y= c (A, B, C, D))
+
 
 
 #Calcule a média de cada tipo de adubo, sem usar summary(), usando o dataframe
