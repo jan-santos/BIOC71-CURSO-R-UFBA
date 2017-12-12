@@ -12,7 +12,7 @@
 # o que é um dataframe? Qual a diferneça entre um dataframe e um list?
 #data.frame é uma tabela (coluna e linhas), matriz para valores de classes diferentes, e lista é um conjunto de objetos
 
-1+2+3
+10*3
 
 
 #o que queremos dizer quando dizemos uma função "retorna" alguma coisa?
